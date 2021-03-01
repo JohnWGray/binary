@@ -8,8 +8,8 @@ body {
 #wrapper {
   background-color: white;
 
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 1%;
   border: 3px solid rgb(81, 2, 117);
   display: block;
@@ -27,6 +27,13 @@ body {
   #visual {
    text-align: center;
   }
+
+  .responsive {
+    width: 100%;
+    max-width: 250px;
+  height: auto;
+  }
+
   #searchNumber {
     text-align:center;
     margin-right: 18%;
@@ -37,6 +44,7 @@ body {
     text-align:center;
     padding-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
   }
 
   #userInput{
@@ -83,4 +91,5 @@ input{
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
   }
